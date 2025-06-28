@@ -1,10 +1,9 @@
-ismlar = []
-while 0 < 5:
-    ism = input("Ismingizni kiriting: ")
-    print(f"salom,{ism}")
+while True:
+      a = input("soz kiriting: ")
+      soz  = []
 
-#for son in range(11):
-#    if son % 2 == 0:
-#        print(f"{son} juft son")
-#    else:
-#        print(f"{son} toq son")
+      if a == a[::-1]:
+          soz.append(a)
+          print(soz)
+      else:
+          print(f"{a} bu soz tneg emas")
