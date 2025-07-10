@@ -1,13 +1,12 @@
-def s(son):
-    son = int(input("son kriting"))
-    almal = input("almal kritng")
-    son1 = int(input("2 son kriting"))
-    if almal == "+":
-        return son + son1
-    elif almal == "-":
-        return son - son1
-    elif almal == "*":
-        return son * son1
-    elif almal == "/":
-        return son / son1
-print(s("qimat"))
+from numpy.ma.core import append
+
+
+def s(a,b):
+    while True:
+        a = int(input("son kritng"))
+        b = []
+        b.append(a)
+        r = int(input("kvadratga oshrish uchun son kriting"))
+        c = a ** r
+        return c
+print(s("qimat","2qimanrt"))
